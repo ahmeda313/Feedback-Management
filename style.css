@@ -1,0 +1,101 @@
+/* input[type="radio"]{
+
+} */
+/* header styles */
+.head{
+    display: flex;
+    justify-content: end;   
+}
+hr{
+    border: 1px solid black;
+}
+.head__nav{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    transition: 200ms;
+}
+a:hover{
+    color: rgba(0, 0, 0,0.7);
+}
+/* table styles */
+.hidden{
+    display:none;
+}
+td{
+   
+    padding-top: 20px;
+}
+.td{
+    text-align:center;
+}
+table{
+    padding: 15px;
+    width:100%;
+}
+.rate_values{
+padding-left: 0.5rem;
+font-size: larger;
+font-weight: 600;
+}
+thead{
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.alldiv{
+    min-width: 700px;
+    margin: 2rem;
+}
+.section{
+    margin-top: 1rem;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(aqua,white);
+}
+.Student_form{
+    margin-top: 10px;
+    padding: 50px;
+}
+.label{
+    font-size: larger;
+    font-weight: 600;
+    padding: 10px;
+}
+.select{
+    font-size: small;
+    font-weight: 600;
+    padding:0.5em;
+}
+.btn{
+    font-size: 1em;
+    font-weight: 600;
+    margin:10px;
+    letter-spacing: -0.05em;
+    padding: .5em .5em;
+    border-radius: 6px;
+    transform: translateX(-5px);
+    transition: 300ms;
+}
+.sub{
+    display: flex;
+    justify-content:end;
+}
+.btn:hover{
+    transform: translateY(-3px) translateX(-5px);
+}
+.adminportal{
+    min-width:300px;
+}
